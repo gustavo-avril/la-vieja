@@ -2,4 +2,4 @@
 
 Video del tutorial
 https://www.youtube.com/watch?v=qkzcjwnueLA
-+ quede en el minuto 39.25
++ quede en el minuto 45:49
