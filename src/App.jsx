@@ -40,7 +40,7 @@ function App() {
     setTurn(newTurn)
     // guardar la partida
     window.localStorage.setItem('board', JSON.stringify(newBoard))
-    window.localStorage.setItem('turn', turn)
+    window.localStorage.setItem('turn', newTurn)
     // revisar si hay ganador
     const newWinner = checkWinnerFrom(newBoard)
     if (newWinner) {
@@ -82,7 +82,6 @@ function App() {
 
       <WinnerModal resetGame={resetGame} winner={winner} />
       
-
     </main>
   )
 }
